@@ -2,14 +2,13 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function prints the string "Programming is like building
- * a multilingual puzzle" with a quotation mark at the beginning, followed by
- * a new line.
+ * Description: This function prints the string with proper grammar, but the outcome is a piece of art,
+ *  followed by a new line.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("\"Programming is like building a multilingual puzzle");
+	printf("with proper grammar, but the outcome is a piece of art,");
 	return (0);
 }
