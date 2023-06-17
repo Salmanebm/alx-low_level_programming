@@ -11,7 +11,7 @@
 int main(void)
 {
 int n;
-for (n = 0 ; n <= 9 ; letter++)
+for (n = 0 ; n <= 9 ; n++)
 { if (n % 10 != 0)
 printf("%d\n",n);
 } return (0);
