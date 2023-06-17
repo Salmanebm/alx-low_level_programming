@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-*Description: Write a program that prints all single digit numbers. 
-* followed by a new line
-*
-* Return: Always 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Description: Prints the alphabet in lowercase, followed by a new line.
+ *              Uses the putchar function.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
