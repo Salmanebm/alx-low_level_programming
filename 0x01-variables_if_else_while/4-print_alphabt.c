@@ -13,11 +13,10 @@ char letter;
 
 for (letter = 'a'; letter <= 'z'; letter++)
 {
-if (letter == 'e' || letter == 'q')
-{ letter ++;
+if (letter != 'e' && letter != 'q')
+{ putchar(letter);
 }    
-else  putchar(letter);
-
+else letter++;
 }
 putchar('\n');
 return (0);
