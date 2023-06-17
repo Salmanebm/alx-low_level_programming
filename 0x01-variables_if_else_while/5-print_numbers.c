@@ -2,8 +2,8 @@
 /**
 * main - Entry point
 *
-* Description: Write a program that prints all single digit numbers 
-*         of base 10 starting from 0, followed by a new line
+*Description: Write a program that prints all single digit numbers. 
+* followed by a new line
 *
 * Return: Always 0 (Success)
 */
