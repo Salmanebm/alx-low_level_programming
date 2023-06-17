@@ -1,12 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * main - Entry point
+ *
+ * This function generates a random number and prints whether the number is positive or negative.
+ *
+ * Return: 0 (Success)
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
-  /* betty style doc for function main goes there */
+ 
 	int n;
 
 	srand(time(0));
