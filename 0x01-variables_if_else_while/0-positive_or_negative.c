@@ -13,14 +13,14 @@ int main(void)
 	if(n *-1>0)
 	{
    /* statement(s) will execute if the boolean expression is true */
-	   printf("is positive\n")
+	  printf("is positive\n");
         }
 	else if (n *-1<0)
 	 {
    /* statement(s) will execute if the boolean expression is false */
-         printf("is negative\n")
+	   printf("is negative\n");
 	 }
 	else
-	 printf("is zero\n")
+	   printf("is zero\n");
 	return (0);
 }
