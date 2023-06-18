@@ -3,8 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: the alphabet in lowercas in reve, followed by a new line.
- *              Uses the putchar function.
+ * Description: Prints the lowercase alphabet in reverse
+ * using the putchar function
  *
  * Return: Always 0 (Success)
  */
@@ -12,7 +12,7 @@ int main(void)
 {
 char letter;
 
-for (letter = 'y'; letter <= 'a'; letter--)
+for (letter = 'z'; letter >= 'a'; letter--)
 {
 putchar(letter);
 }
