@@ -4,10 +4,7 @@
  * main - Entry point of the program
  *
  *  prints all possible combinations of two two-digit numbers
- *  in ascending order, separated by a space and comma. Each number is printed
- *  with two digits, 
- *   It uses the putchar function 
- *
+ *  
  * Return: Always 0 (Success)
  */
 int main(void)
