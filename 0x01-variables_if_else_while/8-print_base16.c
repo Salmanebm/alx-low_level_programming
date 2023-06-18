@@ -12,9 +12,9 @@ int main(void)
 {
 int n;
 char letter;
-for (n = 0; n <= 9; n++)
+for (letter = '0'; n <= '9'; n++)
 {
-putchar(n + '0');
+putchar(letter);
 }
 for (letter = 'a'; letter <= 'f'; n++)
 {
