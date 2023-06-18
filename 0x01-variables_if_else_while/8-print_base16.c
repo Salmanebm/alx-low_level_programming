@@ -3,9 +3,9 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program prints all the numbers of base 16 in lowercase,
+ *  prints all the numbers of base 16 in lowercase,
  *              followed by a new line.
- *              It uses the putchar function and follows the Betty coding style.
+ * 
  *
  * Return: Always 0 (Success)
  */
