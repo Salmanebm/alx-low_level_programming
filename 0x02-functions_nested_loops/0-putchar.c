@@ -4,8 +4,7 @@
  * prints "_putchar" followed by a new line.
  * Return: 0 (Success)
  */
-int main(void)
+int _putchar(char a)
 {
-printf("_putchar\n");
-return (0);
+return (write(1, &c, 1));
 }
