@@ -2,11 +2,10 @@
 
 /**
 * main - causes an infinite loop
+* i don't increment so the loop don't exit
 * Return: 0
 */
-/**
- * i don't increment so the loop don't exit
- */
+
 int main(void)
 {
 int i;
