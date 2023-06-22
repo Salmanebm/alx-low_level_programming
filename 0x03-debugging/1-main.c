@@ -4,7 +4,9 @@
 * main - causes an infinite loop
 * Return: 0
 */
-
+/**
+ * i don't increment so the loop don't exit
+ */
 int main(void)
 {
 int i;
