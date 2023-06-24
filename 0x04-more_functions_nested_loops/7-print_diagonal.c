@@ -1,29 +1,32 @@
 #include "main.h"
 
 /**
- * print_diagonal - draws a diagonal line on the terminal
- * @n: number of times the character \ should be printed
+ * print_triangle - prints a triangle, followed by a new line
+ * @size: size of the triangle
  */
-void print_diagonal(int n)
+void print_triangle(int size)
 {
-	if (n <= 0)
+	if (size <= 0)
 	{
-			_putchar('\n');
-	} 
+		_putchar('\n');
+	}
 	else
 	{
-		int i, j;
+	int i, j;
 
-	for (i = 0; i < n; i++)
+	for (i = 1; i <= size; i++)
 	{
-		for (j = 0; j < n; j++)
-		{
-		if (j == i)
-			_putchar('\\');
-		else if (j < i)
-			_putchar(' ');
-		}
-			_putchar('\n');
+	for (j = i; j < size; j++)
+	{
+		_putchar(' ');
+	}
+
+	for (j = 1; j <= i; j++)
+	{
+		_putchar('#');
+	}
+
+		_putchar('\n');
 	}
 	}
 }
