@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * @*_strcat - concatenate two strings
+ * @_strcat: - concatenate two strings
+ * @dest,@src: two string to concat
  *
  * Return: string.
  */
