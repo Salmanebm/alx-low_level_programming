@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
- * main : print the name of the program
- * @argc, @argv : arguments count and vector 
+/**
+ * main - prints the name of the program
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: Always 0 (Success)
  */
 int main(int argc ,char* argv[])
 {
