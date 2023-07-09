@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /*
  * main : print the name of the program
- *
+ * @argc, @argv : arguments count and vector 
  */
 int main(int argc ,char* argv[])
 {
@@ -11,5 +11,5 @@ int main(int argc ,char* argv[])
 		printf("%s\n",argv[0]);
 		break;
 	}
-	return (0);
+	return(0);
 }
