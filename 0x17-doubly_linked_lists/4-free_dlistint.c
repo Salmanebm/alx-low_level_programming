@@ -4,8 +4,7 @@
 #include "lists.h"
 /**
  * free_dlistint - free element
- * @head: list to add ont it
- * 
+ *@head: list to fee
  * Return:Nothing.
  */
 void free_dlistint(dlistint_t *head)
