@@ -1,4 +1,5 @@
 #include "hash_tables.h"
+#include <stdio.h>
 
 /**
  * sorted_list - function for insert new node in sorted
